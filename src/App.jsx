@@ -23,6 +23,8 @@ function App() {
     setTasks(tasks.filter((_, i) => i !== index))
   }
 
+  console.log(tasks)
+
   return (
     <div className='App'>
       <h1>To-Do List</h1>
